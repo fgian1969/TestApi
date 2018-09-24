@@ -1,0 +1,22 @@
+{
+  "functions": {
+  
+  },
+  "hosting": {
+    "predeploy": [
+      "rm -rf functions/.nuxt && rm -rf public/* && cp -r src/.nuxt functions/ && cp -r functions/.nuxt/dist/ public/ && cp -r src/static/* public/"
+    ],
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "function": "firebaseTestApi"
+      }
+    ]
+  }
+}

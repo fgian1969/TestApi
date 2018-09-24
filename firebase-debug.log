@@ -1,0 +1,155 @@
+[debug] [2018-09-24T06:44:57.220Z] ----------------------------------------------------------------------
+[debug] [2018-09-24T06:44:57.223Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2018-09-24T06:44:57.223Z] CLI Version:   4.2.1
+[debug] [2018-09-24T06:44:57.223Z] Platform:      win32
+[debug] [2018-09-24T06:44:57.224Z] Node Version:  v8.11.3
+[debug] [2018-09-24T06:44:57.224Z] Time:          Mon Sep 24 2018 08:44:57 GMT+0200 (ora legale Europa occidentale)
+[debug] [2018-09-24T06:44:57.225Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-24T06:44:57.236Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-09-24T06:44:57.237Z] > authorizing via signed-in user
+[debug] [2018-09-24T06:44:57.239Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/testapi-bbac2  
+ 
+[debug] [2018-09-24T06:44:58.183Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-24T06:44:58.185Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/testapi-bbac2  
+ 
+[debug] [2018-09-24T06:44:59.073Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\MYPROJECTS\VUE\FirebaseTestApi'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-09-24T06:45:00.293Z] Fetching environment
+[debug] [2018-09-24T06:45:00.296Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/820569836505:getServerAppConfig  
+ 
+[debug] [2018-09-24T06:45:00.297Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/820569836505/clients/_:getWebAppConfig  
+ 
+[debug] [2018-09-24T06:45:00.492Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-24T06:45:00.492Z] Starting @google-cloud/functions-emulator
+[debug] [2018-09-24T06:45:00.716Z] <<< HTTP RESPONSE 200
+[info] i  hosting[testapi-bbac2]: Serving hosting files from: public
+[info] +  hosting[testapi-bbac2]: Local server: http://localhost:5000
+[debug] [2018-09-24T06:45:03.026Z] Parsing function triggers
+[info] +  functions: firebaseTestApi: http://localhost:5001/testapi-bbac2/us-central1/firebaseTestApi
+[info] [hosting] Rewriting / to local function firebaseTestApi
+[info] [hosting] Rewriting / to local function firebaseTestApi
+[info] [hosting] Rewriting / to local function firebaseTestApi
+[info] [hosting] Rewriting / to local function firebaseTestApi
+[info] Shutting down...
+[debug] [2018-09-24T06:46:16.225Z] ----------------------------------------------------------------------
+[debug] [2018-09-24T06:46:16.227Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2018-09-24T06:46:16.228Z] CLI Version:   4.2.1
+[debug] [2018-09-24T06:46:16.228Z] Platform:      win32
+[debug] [2018-09-24T06:46:16.228Z] Node Version:  v8.11.3
+[debug] [2018-09-24T06:46:16.229Z] Time:          Mon Sep 24 2018 08:46:16 GMT+0200 (ora legale Europa occidentale)
+[debug] [2018-09-24T06:46:16.229Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-24T06:46:16.240Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-09-24T06:46:16.240Z] > authorizing via signed-in user
+[debug] [2018-09-24T06:46:16.243Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/testapi-bbac2  
+ 
+[debug] [2018-09-24T06:46:17.223Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-24T06:46:17.225Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/testapi-bbac2  
+ 
+[debug] [2018-09-24T06:46:18.088Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\MYPROJECTS\VUE\FirebaseTestApi'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-09-24T06:46:18.851Z] Fetching environment
+[debug] [2018-09-24T06:46:18.853Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/820569836505:getServerAppConfig  
+ 
+[debug] [2018-09-24T06:46:18.854Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/820569836505/clients/_:getWebAppConfig  
+ 
+[debug] [2018-09-24T06:46:19.155Z] <<< HTTP RESPONSE 200
+[info] i  hosting[testapi-bbac2]: Serving hosting files from: public
+[info] +  hosting[testapi-bbac2]: Local server: http://localhost:5000
+[debug] [2018-09-24T06:46:19.225Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-24T06:46:19.225Z] Starting @google-cloud/functions-emulator
+[debug] [2018-09-24T06:46:21.253Z] Parsing function triggers
+[info] [hosting] Rewriting / to local function firebaseTestApi
+[info] [hosting] Rewriting / to local function firebaseTestApi
+[info] +  functions: firebaseTestApi: http://localhost:5001/testapi-bbac2/us-central1/firebaseTestApi
+[info] [hosting] Rewriting /_nuxt/manifest.cbbd980f489f68ae020f.js to local function firebaseTestApi
+[info] [hosting] Rewriting /_nuxt/layouts_default.3e56d2aba850bf685545.js to local function firebaseTestApi
+[info] [hosting] Rewriting /_nuxt/pages_index.1956cbf3825aae47aeff.js to local function firebaseTestApi
+[info] [hosting] Rewriting /_nuxt/vendor.de6075fe7178484c7e8d.js to local function firebaseTestApi
+[info] [hosting] Rewriting /_nuxt/app.0691fac7e44311e01626.js to local function firebaseTestApi
+[info] [hosting] Rewriting /api/testJson to local function firebaseTestApi
+[debug] [2018-09-24T11:32:30.518Z] ----------------------------------------------------------------------
+[debug] [2018-09-24T11:32:30.522Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2018-09-24T11:32:30.522Z] CLI Version:   4.2.1
+[debug] [2018-09-24T11:32:30.523Z] Platform:      win32
+[debug] [2018-09-24T11:32:30.523Z] Node Version:  v8.11.3
+[debug] [2018-09-24T11:32:30.523Z] Time:          Mon Sep 24 2018 13:32:30 GMT+0200 (ora legale Europa occidentale)
+[debug] [2018-09-24T11:32:30.523Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-24T11:32:30.539Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-09-24T11:32:30.540Z] > authorizing via signed-in user
+[debug] [2018-09-24T11:32:30.543Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-09-24T11:32:30.543Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+
+[debug] [2018-09-24T11:32:30.804Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-24T11:32:30.809Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/testapi-bbac2  
+ 
+[debug] [2018-09-24T11:32:31.802Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-24T11:32:31.803Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/testapi-bbac2  
+ 
+[debug] [2018-09-24T11:32:33.869Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\MYPROJECTS\VUE\FirebaseTestApi'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-09-24T11:32:35.003Z] Fetching environment
+[debug] [2018-09-24T11:32:35.005Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/820569836505:getServerAppConfig  
+ 
+[debug] [2018-09-24T11:32:35.006Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/820569836505/clients/_:getWebAppConfig  
+ 
+[debug] [2018-09-24T11:32:35.290Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-24T11:32:35.291Z] Starting @google-cloud/functions-emulator
+[debug] [2018-09-24T11:32:35.479Z] <<< HTTP RESPONSE 200
+[info] i  hosting[testapi-bbac2]: Serving hosting files from: public
+[info] +  hosting[testapi-bbac2]: Local server: http://localhost:5000
+[debug] [2018-09-24T11:32:37.832Z] Parsing function triggers
+[info] +  functions: firebaseTestApi: http://localhost:5001/testapi-bbac2/us-central1/firebaseTestApi
+[info] [hosting] Rewriting / to local function firebaseTestApi
+[info] [hosting] Rewriting / to local function firebaseTestApi
+[debug] [2018-09-24T11:33:56.777Z] ----------------------------------------------------------------------
+[debug] [2018-09-24T11:33:56.780Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2018-09-24T11:33:56.780Z] CLI Version:   4.2.1
+[debug] [2018-09-24T11:33:56.780Z] Platform:      win32
+[debug] [2018-09-24T11:33:56.780Z] Node Version:  v8.11.3
+[debug] [2018-09-24T11:33:56.781Z] Time:          Mon Sep 24 2018 13:33:56 GMT+0200 (ora legale Europa occidentale)
+[debug] [2018-09-24T11:33:56.781Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-24T11:33:56.793Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-09-24T11:33:56.793Z] > authorizing via signed-in user
+[debug] [2018-09-24T11:33:56.796Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/testapi-bbac2  
+ 
+[debug] [2018-09-24T11:33:57.719Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-24T11:33:57.721Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/testapi-bbac2  
+ 
+[debug] [2018-09-24T11:33:58.579Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\MYPROJECTS\VUE\FirebaseTestApi'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-09-24T11:33:59.426Z] Fetching environment
+[debug] [2018-09-24T11:33:59.429Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/820569836505:getServerAppConfig  
+ 
+[debug] [2018-09-24T11:33:59.429Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/820569836505/clients/_:getWebAppConfig  
+ 
+[debug] [2018-09-24T11:33:59.816Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-24T11:33:59.853Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-24T11:33:59.854Z] Starting @google-cloud/functions-emulator
+[info] i  hosting[testapi-bbac2]: Serving hosting files from: public
+[info] +  hosting[testapi-bbac2]: Local server: http://localhost:5000
+[debug] [2018-09-24T11:34:02.471Z] Parsing function triggers
+[info] [hosting] Rewriting / to local function firebaseTestApi
+[info] [hosting] Rewriting /_nuxt/manifest.cbbd980f489f68ae020f.js to local function firebaseTestApi
+[info] [hosting] Rewriting /_nuxt/layouts_default.3e56d2aba850bf685545.js to local function firebaseTestApi
+[info] [hosting] Rewriting /_nuxt/vendor.de6075fe7178484c7e8d.js to local function firebaseTestApi
+[info] [hosting] Rewriting /_nuxt/pages_index.1956cbf3825aae47aeff.js to local function firebaseTestApi
+[info] [hosting] Rewriting /_nuxt/app.0691fac7e44311e01626.js to local function firebaseTestApi
+[info] +  functions: firebaseTestApi: http://localhost:5001/testapi-bbac2/us-central1/firebaseTestApi
+[info] [hosting] Rewriting /api/testJson to local function firebaseTestApi
+[info] Shutting down...
